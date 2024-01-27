@@ -4,7 +4,7 @@
 #With a sleep 2 in between each iteration
 #I am invincible!!! when receiving a SIGTERM signal
 
-trap 'echo "i am invisible!!!" ' -15
+trap 'echo "i am invisible!!!" ' 15
 while true
 do
 	echo "to infinity and beyond"
