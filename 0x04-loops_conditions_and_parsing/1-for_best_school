@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Displays "Best School" 10 times using a for loop.
-
+#You must use the for loop 
+#while and until are forbidden
 for (( i=0; i<10; i++ )) 
 do
   echo "Best School"
